@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 4rem;
+    background-color: #1a8c94;
+    color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 8rem;
+        font-size: 2rem;
+    }
+
+    input, button {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        padding: 12rem;
+        font-size: 2rem;
+    }
+
+    input, button {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
+
+input, button {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
